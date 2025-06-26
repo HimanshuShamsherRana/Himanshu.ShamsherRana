@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Css Position</title>
+    <style>
+        .box{
+            border: 2px solid;
+        }
+        .minibox{
+            height: 150px ;
+            width: 150px;
+            border: 2px solid red;
+            font-display: 2rem;
+            text-align: center;
+            align-content: center;
+        }
+        #static{
+            margin-top: 3rem;
+            background-color: lightsalmon;
+            position: static;
+        }
+        #relative{
+            position: relative;
+            top: 3rem;
+            background-color: lightskyblue;
+        }
+        #absolute{
+            position: absolute;
+            background-color: lightgoldenrodyellow;
+            right: 0;
+        }
+        #fixed{
+            position: fixed;
+            background-color: lightgreen;
+            right: 1rem;
+            bottom: 1rem;
+            border-radius: 50%;
+        }
+        #sticky{
+            position: sticky;
+            top: 0;
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Css position Types:</h1>
+    <ol>
+        <li>static(default)</li>
+        <li>relative(own position)</li>
+        <li>absolute(relative to the parent element)</li>
+        <li>fixed(relative to the viewport)</li>
+        <li>sticky(scroll)</li>
+    </ol>
+
+    <div class="box">
+        <div class="minibox" id="static">static</div>
+        <div class="minibox" id="relative">relative</div>
+        <div class="minibox" id="absolute">absolute</div>
+        <div class="minibox" id="fixed">fixed</div>
+        <div class="minibox" id="sticky">sticky</div>
+    </div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus esse accusantium ipsum nulla doloremque. Veniam, alias est quia commodi illum nulla eligendi, consectetur dignissimos, rem laudantium asperiores porro dolore.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti in sapiente repellendus illo eveniet officiis voluptas voluptatum minus porro obcaecati? Molestiae, repellendus fugiat vel aliquid quas aperiam consequatur reiciendis esse!
+    Est, sed? Quisquam cum dicta eaque tempore voluptate beatae aperiam fugiat unde, praesentium cupiditate qui consectetur, sapiente voluptates, porro in architecto voluptatem molestias labore soluta explicabo rerum delectus commodi minima?
+    Non eligendi voluptatem facere, repellendus quis voluptatum consectetur numquam facilis ex, alias ad! Ullam explicabo non mollitia placeat sequi id delectus iste numquam, dolorem architecto, nesciunt odit dolores repellat obcaecati.
+    Ipsum, officiis quos? Voluptas consectetur, possimus itaque ratione quam sapiente nisi maiores sint architecto. Officiis autem atque repellendus libero totam error quia ullam voluptatibus, quibusdam ex, voluptas exercitationem quos dolore?
+    Ipsum ex placeat modi id, exercitationem consequatur similique quidem repellat repudiandae facere soluta eius quae laudantium aperiam, dignissimos nostrum cumque. Distinctio hic accusamus alias maiores repellat non dolores dolorem quae.
+    Nostrum sunt, aperiam ab, totam vero vel eligendi enim voluptatum atque, dolorum doloremque qui voluptatibus vitae doloribus ducimus. Vitae quos sunt perferendis repellat tempore minima cum natus suscipit, eum recusandae!
+    Officia tempore voluptatem molestias et tempora nesciunt, vitae recusandae ullam quis! Molestias dolorum numquam quam nisi vero? Sint itaque voluptas minima, culpa repudiandae iusto sed enim quaerat architecto sit aliquid?
+
+</body>
+</html>

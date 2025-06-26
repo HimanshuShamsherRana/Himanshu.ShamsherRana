@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Span</title>
+    <style>
+        table, th, td{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4">span rows</td>
+                <td colspan="3">span columns</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">span columns</td>
+                <td rowspan="3" align="center">span both</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">span rows</td>
+                <td>span columns</td>
+    
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
